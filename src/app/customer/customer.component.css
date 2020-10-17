@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.table {
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    border: 2px solid #dee2e6;;
+    overflow-y: auto;
+}

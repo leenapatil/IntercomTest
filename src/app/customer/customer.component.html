@@ -1,0 +1,16 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">User ID</th>
+        <th scope="col">Customer Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cust of nearByCust | orderby; let indexOfelement=index;">
+        <th scope="row">{{indexOfelement+1}}</th>  
+        <td>{{cust.user_id}}</td>
+        <td>{{cust.name}}</td>
+      </tr>
+    </tbody>
+</table>
