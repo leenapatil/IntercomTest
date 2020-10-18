@@ -35,7 +35,7 @@ export class CustomerComponent implements OnInit {
   }
 
   invitedCustomers() {
-    this.officeRadLatLng = this.distanceService.dOfficeLatLngCnvrtDegreeToRadians();
+    this.officeRadLatLng = this.distanceService.officeLatLngCnvrtDegreeToRadians();
     this.nearByCust = [];
     this.custData.forEach(cust => {
       var dist = this.calDistanceFromOffice(cust);
@@ -44,5 +44,4 @@ export class CustomerComponent implements OnInit {
       }
     });
   }
-
 }

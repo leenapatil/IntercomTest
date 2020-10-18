@@ -1,0 +1,21 @@
+Input -
+When you start application, we should be able to see all customers within 100KM.
+
+Output -
+#	User ID	Customer Name
+1	4	Ian Kehoe
+2	5	Nora Dempsey
+3	6	Theresa Enright
+4	8	Eoin Ahearn
+5	11	Richard Finnegan
+6	12	Christina McArdle
+7	13	Olive Ahearn
+8	15	Michael Ahearn
+9	17	Patricia Cahill
+10	23	Eoin Gallagher
+11	24	Rose Enright
+12	26	Stephen McArdle
+13	29	Oliver Ahearn
+14	30	Nick Enright
+15	31	Alan Behan
+16	39	Lisa Ahearn

@@ -17,11 +17,11 @@ export class DistanceCalcService {
     return [lat, long];
   }
 
- //53.339428, -6.257664 - Dublin office lat long
+  // 53.339428, -6.257664 - Dublin office lat long
   // Convert the latitude and longitude values from decimal degrees to radians.
   // For this divide the values of longitude and latitude of both the points by 180/pi. 
   // The value of pi is 22/7. The value of 180/pi is approximately 57.29577951. 
-  dOfficeLatLngCnvrtDegreeToRadians() {
+  officeLatLngCnvrtDegreeToRadians() {
     return this.convertDegreeToRadians(53.339428, -6.257664);
   }
 
