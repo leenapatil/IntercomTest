@@ -1,5 +1,9 @@
 The proudest achievement for me is-
-In one project, previously using geocode and places textsearch google apis to search specific search location,
-which was returning many locations including nearby locations as well even we didn't wanted those locations. Google api cost was expensive for those api. 
+In one of the project, for searchin location, was using geocode and places textsearch google apis.
+Which was returning all possible results matching with that text, which was causing bringing unnecessary
+locations as well. Costing was too high as those were frequently happening calls.
 
-I have implemented autocomplete google api by replacing existing api so when you will search for location, it will give you autocomplete options from where you can choose specific result and it was creating big difference in costing.
+I have implemented autocomplete google api by replacing existing api so when you will search for location,
+it will give you autocomplete options from where you can choose specific result so it was more accurate
+as you are initially selecting specific location which you want to select. 
+It helped in project costing as well as autocomplete api is less expensive compared to geocode and textsearch api.
