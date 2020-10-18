@@ -13,3 +13,18 @@ To run this test -
    in chrome automatically.
 
 5. You will see list of customers we are going to invite who are within 100km of our Dublin office 
+
+
+**About Implementation
+
+Customer list - assets/customers.json
+
+Component - customer 
+small UI and basic logic is inside customer component
+
+Service - distance-calc.service.ts
+Few common functions are in service
+
+Filter for sorting with user_id  - orderBy.pipe.ts
+To Sort list by user_id, created Angular Pipe
+
